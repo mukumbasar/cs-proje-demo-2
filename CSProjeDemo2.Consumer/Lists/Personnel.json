@@ -1,0 +1,14 @@
+﻿[
+  {
+    "Name": "John",
+    "Surname": "Doe",
+    "Title": "CivilServant",
+    "CivilServantDegree" : 2
+  },
+  {
+    "Name": "Jane",
+    "Surname": "Doe",
+    "Title": "Executive",
+    "MonthlyBonus" : 5000
+  }
+]
