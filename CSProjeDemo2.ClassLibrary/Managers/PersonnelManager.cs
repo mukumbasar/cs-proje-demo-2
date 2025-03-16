@@ -31,7 +31,7 @@ namespace CSProjeDemo2.ClassLibrary.Managers
                     Console.Write($"Please enter monthly working hours of {personnel.Name} {personnel.Surname} - {personnel.Title}: ");
                     var workingHoursInput = Console.ReadLine();
 
-                    if (int.TryParse(workingHoursInput, out int workingHours))
+                    if (int.TryParse(workingHoursInput, out int workingHours) && workingHours > 0)
                     {
                         if (workingHours <= 10)
                         {
@@ -58,6 +58,7 @@ namespace CSProjeDemo2.ClassLibrary.Managers
                     }
                 }
             }
+            Console.WriteLine("The process has been concluded.");
         }
 
         private void ReadPersonnelFile(string localFileAddress)
@@ -72,7 +73,7 @@ namespace CSProjeDemo2.ClassLibrary.Managers
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"An error occurred: {ex.Message}");
+                Console.WriteLine($"Error: {ex.Message}");
             }
         }
         private void WritePayrollAsJson(Payroll payroll)
