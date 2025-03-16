@@ -1,14 +1,26 @@
 ﻿[
   {
-    "Name": "John",
-    "Surname": "Doe",
+    "Name": "Ahmet",
+    "Surname": "Demir",
     "Title": "CivilServant",
-    "CivilServantDegree" : 2
+    "CivilServantDegree": 2
   },
   {
-    "Name": "Jane",
-    "Surname": "Doe",
-    "Title": "Executive",
-    "MonthlyBonus" : 5000
+    "Name": "Cemile",
+    "Surname": "Kar",
+    "Title": "Manager",
+    "MonthlyBonus": 5000
+  },
+  {
+    "Name": "Burak",
+    "Surname": "Aydin",
+    "Title": "Manager",
+    "MonthlyBonus": 4000
+  },
+  {
+    "Name": "Zeynep",
+    "Surname": "Yilmaz",
+    "Title": "CivilServant",
+    "CivilServantDegree": 1
   }
 ]

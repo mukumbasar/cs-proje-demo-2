@@ -1,0 +1,9 @@
+Payroll, MART 2025
+{
+  "PersonnelName": "Ahmet Demir",
+  "WorkingHours": 150,
+  "MainPayment": 75000.0,
+  "OvertimePayment": 0.0,
+  "MonthlyBonus": 0.0,
+  "TotalPayment": 75000.0
+}

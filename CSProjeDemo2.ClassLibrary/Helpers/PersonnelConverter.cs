@@ -21,7 +21,7 @@ namespace CSProjeDemo2.ClassLibrary.Helpers
                 case Title.CivilServant:
                     personnel = new CivilServant();
                     break;
-                case Title.Executive:
+                case Title.Manager:
                     personnel = new Manager();
                     break;
                 default:

@@ -1,0 +1,9 @@
+Payroll, MART 2025
+{
+  "PersonnelName": "Cemile Kar",
+  "WorkingHours": 11,
+  "MainPayment": 11000.0,
+  "OvertimePayment": 0.0,
+  "MonthlyBonus": 5000.0,
+  "TotalPayment": 16000.0
+}

@@ -9,6 +9,6 @@ namespace CSProjeDemo2.ClassLibrary.Enums
     public enum Title
     {
         CivilServant = 0,
-        Executive
+        Manager
     }
 }

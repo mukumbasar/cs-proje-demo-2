@@ -17,9 +17,9 @@ namespace CSProjeDemo2.ClassLibrary.Entities.Abstracts
 
         public virtual Payroll CalculateSalary(int workingHours)
         {
-            int overtimeHours = workingHours - 180;
+            int overtimeHours = Math.Max(0, workingHours - 180);
             decimal overtimePayment = overtimeHours * (HourlyWage * 1.5m);
-            decimal mainPayment = overtimePayment + HourlyWage * workingHours - overtimeHours;
+            decimal mainPayment = (workingHours - overtimeHours) * HourlyWage;
 
             return new Payroll()
             {

@@ -1,0 +1,9 @@
+Payroll, MART 2025
+{
+  "PersonnelName": "Zeynep Yilmaz",
+  "WorkingHours": 54,
+  "MainPayment": 27000.0,
+  "OvertimePayment": 0.0,
+  "MonthlyBonus": 0.0,
+  "TotalPayment": 27000.0
+}
